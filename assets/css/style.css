@@ -184,6 +184,13 @@ p {
     margin-left: 60px;
 }
 
+/* CONTACT PAGE */
+.contact-section {
+    min-height: 100vh;
+    padding-top: 170px;
+    margin-bottom: 400px;
+}
+
 /* FOOTER */
 
 footer {
