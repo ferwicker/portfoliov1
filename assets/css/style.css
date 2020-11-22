@@ -35,7 +35,7 @@ section {
 }
 
 .bottom-section {
-    margin-bottom: 100px;
+    margin-bottom: 400px;
 }
 
 p {
@@ -56,6 +56,13 @@ p {
     line-height: 1.2;
     padding: 7px 30px 10px 30px;
     margin-top: 20px;
+}
+.btn-dark {
+    border: none;
+}
+
+.btn-dark:hover {
+    background-color: #383838c5;
 }
 
 /* NAV */
@@ -181,11 +188,23 @@ p {
 
 footer {
     width: 100%;
-    background-color: darkseagreen;
-    padding: 60px;
-    
+    background-image: url("../images/abstract-gradient-11.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
 }
 
 .fixed-bottom {
     z-index: -1;
+}
+
+.brand-footer {
+    font-size: 36px;
+    font-weight: 400;
+    color: #383838;
+}
+
+.brand-footer:hover {
+    color: #383838c5;
 }
