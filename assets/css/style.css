@@ -1,0 +1,26 @@
+/* GENERAL */
+
+body {
+    background-color: whitesmoke;
+}
+
+/* NAV */
+
+.nav-container {
+    padding: 20px;
+    background-color: #D0E2FE;
+}
+
+.nav-link {
+    color: #383838;
+    font-family: new-spirit, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #383838c5;
+}
+
+/* HERO */
