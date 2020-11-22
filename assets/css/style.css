@@ -7,6 +7,14 @@ body {
     color: #383838;
 }
 
+h2 {
+    font-family: new-spirit, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.3;  
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -122,7 +130,7 @@ p {
     margin-top: -20px;
 }
 
-/* HOME-SECTION 1 */
+/* HOME-INTRO SECTION 1 */
 
 .placeholder {
     background-color: darksalmon;
@@ -152,4 +160,12 @@ p {
 
 .card-body {
     padding-top: 30px;
+}
+
+/* HOME-BIO SECTION 3 */
+
+.max-600-right {
+    max-width: 600px;
+    padding: 60px 0;
+    margin-left: 60px;
 }
