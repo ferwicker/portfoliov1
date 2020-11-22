@@ -208,3 +208,14 @@ footer {
 .brand-footer:hover {
     color: #383838c5;
 }
+
+.social-icon {
+    text-decoration: none;
+    color: #383838;
+    padding: 15px;
+}
+
+.social-icon:hover {
+    text-decoration: none;
+    color: #383838c5;
+}
