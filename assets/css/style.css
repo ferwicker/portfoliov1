@@ -19,12 +19,12 @@ section {
 /* NAV */
 
 .nav-container {
-    padding: 8px 20px;
-    background-color: #D0E2FE;
+    padding: 8px 50px;
+    background-color: #d0e2feda;
 }
 
 .nav-container:hover {
-    background-color: #d7cef0;
+    background-color: #d7cef0da;
 }
 
 .nav-link {
@@ -63,7 +63,6 @@ section {
 }
 
 .hero-hello {
-    color: #383838;
     font-family: new-spirit, serif;
     font-style: normal;
     font-weight: 500;
@@ -83,4 +82,15 @@ section {
 
 .faded {
     opacity: 50%;
+}
+
+.hero-intro {
+    font-family: new-spirit, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.2;
+    float: right;
+    margin-top: -20px;
+    margin-bottom: 20px;
 }
