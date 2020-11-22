@@ -20,8 +20,10 @@ h2 {
 }
 
 section {
+    background-color: whitesmoke;
     width: 100%;
     padding: 100px 60px;
+    z-index: 50;
 }
 
 .section-intro {
@@ -30,6 +32,10 @@ section {
     font-weight: 400;
     font-size: 32px;
     line-height: 1.3;
+}
+
+.bottom-section {
+    margin-bottom: 100px;
 }
 
 p {
@@ -57,6 +63,7 @@ p {
 .nav-container {
     padding: 8px 50px;
     background-color: #d0e2feda;
+    z-index: 99;
 }
 
 .nav-container:hover {
@@ -168,4 +175,17 @@ p {
     max-width: 600px;
     padding: 60px 0;
     margin-left: 60px;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: darkseagreen;
+    padding: 60px;
+    
+}
+
+.fixed-bottom {
+    z-index: -1;
 }
