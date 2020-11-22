@@ -132,4 +132,24 @@ p {
 
 .bg-lilac {
     background-color: #EAEFFD;
+    padding: 150px 60px;
+}
+
+.card {
+    margin: auto;
+    border-style: none;
+    text-align: center;
+    background-color: #EAEFFD;;
+}
+
+.card-title {
+    font-family: new-spirit, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2; 
+}
+
+.card-body {
+    padding-top: 30px;
 }
