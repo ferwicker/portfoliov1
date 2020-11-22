@@ -33,6 +33,17 @@ p {
     padding: 60px 0;
 }
 
+.btn {
+    border-radius: 25px;
+    font-family: sofia-pro, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.2;
+    padding: 7px 30px 10px 30px;
+    margin-top: 20px;
+}
+
 /* NAV */
 
 .nav-container {
@@ -76,8 +87,7 @@ p {
     background-image: url("../images/abstract-gradient-11.jpg");
     background-size: cover;
     background-position: center;
-    padding-top: 150px;
-    min-height: 100vh;
+    padding: 200px 60px;
 }
 
 .hero-hello {
@@ -110,7 +120,6 @@ p {
     line-height: 1.2;
     float: right;
     margin-top: -20px;
-    margin-bottom: 40px;
 }
 
 /* HOME-SECTION 1 */
@@ -119,3 +128,8 @@ p {
     background-color: darksalmon;
 }
 
+/* HOME-SKILLS SECTION 2 */
+
+.bg-lilac {
+    background-color: #EAEFFD;
+}
