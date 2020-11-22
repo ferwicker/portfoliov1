@@ -7,6 +7,14 @@ body {
     color: #383838;
 }
 
+h1 {
+    font-family: new-spirit, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 1.3; 
+}
+
 h2 {
     font-family: new-spirit, serif;
     font-style: normal;
@@ -208,6 +216,12 @@ a:hover {
 .contact-social:hover {
     color: #383838c5;
     text-decoration: none;
+}
+
+/* PORTFOLIO PAGE */
+
+.top-section {
+    padding-top: 170px;
 }
 
 /* FOOTER */
