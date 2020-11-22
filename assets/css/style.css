@@ -42,6 +42,15 @@ p {
     margin-top: 20px;
 }
 
+a {
+    color: rgb(167, 131, 167);
+}
+
+a:hover {
+    text-decoration: none;
+    color: thistle;
+}
+
 .max-600 {
     max-width: 600px;
     padding: 60px 0;
@@ -189,6 +198,16 @@ p {
     min-height: 100vh;
     padding-top: 170px;
     margin-bottom: 400px;
+}
+
+.contact-social {
+    padding: 10px 20px 0 0;
+    color: #383838;
+}
+
+.contact-social:hover {
+    color: #383838c5;
+    text-decoration: none;
 }
 
 /* FOOTER */
