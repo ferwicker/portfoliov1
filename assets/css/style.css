@@ -188,7 +188,7 @@ a:hover {
 
 .bg-lilac {
     background-color: #EAEFFD;
-    padding: 150px 60px;
+    padding: 100px 0px;
 }
 
 .card {
@@ -320,7 +320,7 @@ footer {
     background-image: url("../images/abstract-gradient-11.jpg");
     background-size: cover;
     background-position: center;
-    padding: 100px;
+    padding: 100px 0;
     text-align: center;
 }
 
