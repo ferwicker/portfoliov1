@@ -93,7 +93,7 @@ a:hover {
 /* NAV */
 
 .nav-container {
-    padding: 8px 50px;
+    padding: 8px 20px;
     background-color: #d0e2feda;
     z-index: 99;
 }
@@ -108,19 +108,23 @@ a:hover {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
+    padding: 8px 0px 10px 0;
 }
 
 .nav-link:hover {
     color: #383838c5;
 }
 
-.brand {
-    font-size: 30px;
+.navbar-brand {
+    font-family: new-spirit, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
     font-weight: 400;
     color: rgb(9, 88, 88);
 }
 
-.brand:hover {
+.navbar-brand:hover {
     color: rgba(9, 88, 88, 0.8);
 }
 
@@ -206,10 +210,6 @@ a:hover {
 .card-body {
     padding-top: 30px;
 }
-
-/* HOME-BIO SECTION 3 */
-
-
 
 /* CONTACT PAGE */
 .contact-section {
@@ -355,12 +355,14 @@ footer {
 
 @media (min-width: 768px) { 
 
-    /*responsive nav
-    nav {
-        position: fixed;
-        bottom: 0;
+    .nav-container {
+        padding: 8px 50px;
     }
-*/
+
+    a.nav-link {
+        margin-left: 20px;
+    }
+
     section {
         padding: 100px 60px;
     }
