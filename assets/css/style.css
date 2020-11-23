@@ -243,7 +243,7 @@ a:hover {
 
 .project-card {
     width: 100%;
-    height: 50vh;
+    height: 60vh;
     padding: 40px;
     background-color: teal;
     position: relative;
@@ -259,7 +259,11 @@ a:hover {
     position: absolute;
     top: 0%;
     left: 0%;
+    opacity: 0;
+}
 
+.project-overlay:hover {
+    opacity: 1;
 }
 
 .btn-white {
@@ -278,7 +282,27 @@ a:hover {
 }
 
 #full-function-fitness {
-   
+    background-image: url("../images/full-function-fitness.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#coworking-hub {
+    background-image: url("../images/coworking-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#bunda {
+    background-image: url("../images/BUNDA-ring\ trio.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#evaluna {
+    background-image: url("../images/evaluna-flower-crown.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 /* FOOTER */
