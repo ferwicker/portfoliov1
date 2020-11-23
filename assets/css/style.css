@@ -23,6 +23,14 @@ h2 {
     line-height: 1.3;  
 }
 
+h3 {
+    font-family: new-spirit, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1;    
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -165,6 +173,7 @@ a:hover {
 
 .placeholder {
     background-color: darksalmon;
+    min-height: 300px;
 }
 
 /* HOME-SKILLS SECTION 2 */
@@ -222,6 +231,54 @@ a:hover {
 
 .top-section {
     padding-top: 170px;
+}
+
+.portfolio-header {
+    margin: auto;
+    margin-bottom: 100px;
+    max-width: 800px;
+}
+
+/*** PROJECT CARDS! ***/
+
+.project-card {
+    width: 100%;
+    height: 50vh;
+    padding: 40px;
+    background-color: teal;
+    position: relative;
+}
+
+.project-overlay {
+    color: whitesmoke;
+    text-align: center;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+}
+
+.btn-white {
+    display: inline;
+    background-color: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: whitesmoke;
+    color: whitesmoke;
+}
+
+.btn-white:hover {
+    color: rgba(245, 245, 245, 0.7);
+    border-color: rgba(245, 245, 245, 0.7);
+    background-color: rgba(245, 245, 245, 0.1);
+}
+
+#full-function-fitness {
+   
 }
 
 /* FOOTER */
