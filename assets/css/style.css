@@ -173,8 +173,6 @@ a:hover {
     font-weight: 400;
     font-size: 48px;
     line-height: 1.2;
-    float: right;
-    margin-top: -20px;
 }
 
 /* HOME-INTRO SECTION 1 */
@@ -214,7 +212,7 @@ a:hover {
 /* CONTACT PAGE */
 .contact-section {
     min-height: 100vh;
-    padding-top: 170px;
+    padding-top: 70px;
     margin-bottom: 400px;
 }
 
@@ -231,7 +229,7 @@ a:hover {
 /* PORTFOLIO PAGE */
 
 .top-section {
-    padding-top: 170px;
+    padding-top: 100px;
 }
 
 .portfolio-header {
@@ -363,6 +361,12 @@ footer {
         margin-left: 20px;
     }
 
+    .hero-intro {
+        float: right;
+        margin-top: -20px;
+        padding-top: 0;
+    }
+
     section {
         padding: 100px 60px;
     }
@@ -371,5 +375,12 @@ footer {
         margin-left: 60px;
     }
 
+    .contact-section {
+        padding-top: 170px;
+    }
+
+    .top-section {
+        padding-top: 170px;
+    }
 
  }
