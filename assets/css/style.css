@@ -162,6 +162,7 @@ a:hover {
     font-style: normal;
     font-size: 72px;
     margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 0px;
     line-height: 1;
 }
@@ -393,6 +394,7 @@ footer {
     .hero-heading{
         font-size: 120px;
         margin-left: -10px;
+        margin-bottom: 0%;
     }
     
 .hero-hello {
