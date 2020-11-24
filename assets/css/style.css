@@ -44,7 +44,7 @@ h3 {
 section {
     background-color: whitesmoke;
     width: 100%;
-    padding: 40px 0px;
+    padding:0px;
     z-index: 50;
 }
 
@@ -152,7 +152,7 @@ a:hover {
     font-family: new-spirit, serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 48px;
+    font-size: 40px;
     line-height: 1;
 }
 
@@ -160,7 +160,7 @@ a:hover {
     font-family: sofia-pro, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 80px;
+    font-size: 72px;
     margin-top: 20px;
     margin-left: 0px;
     line-height: 1;
@@ -174,7 +174,7 @@ a:hover {
     font-family: new-spirit, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 1.2;
 }
 
