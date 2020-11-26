@@ -2,25 +2,26 @@
 
 body {
     background-color: whitesmoke;
+    color: #383838;
     font-family: sofia-pro, sans-serif;
     font-weight: 300;
-    color: #383838;
 }
 
 h1 {
+    line-height: 1.3; 
     font-family: new-spirit, serif;
+    font-size: 54px;
     font-style: normal;
     font-weight: 500;
-    font-size: 54px;
-    line-height: 1.3; 
+
 }
 
 h2 {
+    line-height: 1.3; 
     font-family: new-spirit, serif;
     font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 1.3;  
+    font-weight: 400
+ 
 }
 
 h3 {
@@ -36,15 +37,15 @@ h3 {
 }
 
 .page-container {
-    max-width: 100vw;
     overflow: hidden;
     margin-bottom: 400px;
+    max-width: 100vw;
 }
 
 section {
     background-color: whitesmoke;
     width: 100%;
-    padding:0px;
+    padding:0;
     z-index: 50;
 }
 
@@ -72,7 +73,7 @@ a:hover {
 .max-600 {
     max-width: 600px;
     padding: 60px 20px;
-    margin: 0%;
+    margin: 0;
 }
 
 .btn {
@@ -111,7 +112,7 @@ a:hover {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    padding: 8px 0px 10px 0;
+    padding: 8px 0 10px 0;
 }
 
 .nav-link:hover {
@@ -119,12 +120,12 @@ a:hover {
 }
 
 .navbar-brand {
+    color: rgb(9, 88, 88);
     font-family: new-spirit, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    font-weight: 400;
-    color: rgb(9, 88, 88);
+
 }
 
 .navbar-brand:hover {
@@ -161,14 +162,14 @@ a:hover {
     font-weight: 500;
     font-style: normal;
     font-size: 72px;
+    line-height: 1;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 0px;
-    line-height: 1;
+    margin-left: 0;
 }
 
 .faded {
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 .hero-intro {
@@ -179,26 +180,19 @@ a:hover {
     line-height: 1.2;
 }
 
-/* HOME-INTRO SECTION 1 */
-
-.placeholder {
-    background-color: darksalmon;
-    min-height: 300px;
-}
-
-/* HOME-SKILLS SECTION 2 */
+/* HOME-SKILLS SECTION */
 
 .bg-lilac {
     background-color: #EAEFFD;
-    padding: 100px 0px;
+    padding: 100px 0;
 }
 
 .card {
+    background-color: #EAEFFD;
+    border-style: none;
     margin: auto;
     padding: 20px;
-    border-style: none;
     text-align: center;
-    background-color: #EAEFFD;;
 }
 
 .card-title {
@@ -215,13 +209,13 @@ a:hover {
 
 /* CONTACT PAGE */
 .contact-section {
-    min-height: 100vh;
     padding-top: 70px;
+    min-height: 100vh;
 }
 
 .contact-social {
-    padding: 10px 20px 0 0;
     color: #383838;
+    padding: 10px 20px 0 0;
 }
 
 .contact-social:hover {
@@ -230,7 +224,6 @@ a:hover {
 }
 
 /* PORTFOLIO PAGE */
-
 .top-section {
     padding-top: 100px;
 }
@@ -242,25 +235,24 @@ a:hover {
 }
 
 /*** PROJECT CARDS! ***/
-
 .project-card {
-    width: 100%;
-    height: 450px;
-    padding: 40px;
     background-color: teal;
+    height: 450px;
+    width: 100%;
+    padding: 40px;
     position: relative;
 }
 
 .project-overlay {
     color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.7);
     text-align: center;
     padding: 40px;
-    background-color: rgba(0, 0, 0, 0.7);
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0%;
-    left: 0%;
+    top: 0;
+    left: 0;
     opacity: 0;
 }
 
@@ -269,25 +261,25 @@ a:hover {
 }
 
 .btn-white {
-    display: inline;
     background-color: none;
     border-style: solid;
     border-width: 2px;
     border-color: whitesmoke;
     color: whitesmoke;
+    display: inline;
 }
 
 .project-scope {
-    text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.1em; 
+    text-transform: uppercase;
 }
 
 .btn-white:hover {
-    color: rgba(245, 245, 245, 0.7);
-    border-color: rgba(245, 245, 245, 0.7);
     background-color: rgba(245, 245, 245, 0.1);
+    border-color: rgba(245, 245, 245, 0.7);
+    color: rgba(245, 245, 245, 0.7);
 }
 
 #full-function-fitness {
@@ -330,9 +322,9 @@ footer {
 }
 
 .brand-footer {
+    color: #383838;
     font-size: 36px;
     font-weight: 400;
-    color: #383838;
 }
 
 .brand-footer:hover {
@@ -340,14 +332,14 @@ footer {
 }
 
 .social-icon {
-    text-decoration: none;
     color: #383838;
     padding: 15px;
+    text-decoration: none;
 }
 
 .social-icon:hover {
-    text-decoration: none;
     color: #383838c5;
+    text-decoration: none;
 }
 
 /* Media queries */
@@ -385,8 +377,8 @@ footer {
     .top-section {
         padding-top: 170px;
     }
-    /* HERO */
 
+    /* HERO */
     .hero{
         padding: 200px 60px;
     }
@@ -394,15 +386,15 @@ footer {
     .hero-heading{
         font-size: 120px;
         margin-left: -10px;
-        margin-bottom: 0%;
+        margin-bottom: 0;
     }
     
-.hero-hello {
-    font-size: 60px;
-}
+    .hero-hello {
+        font-size: 60px;
+    }
 
-.hero-intro {
-    font-size: 48px;
-}
+    .hero-intro {
+        font-size: 48px;
+    }
 
  }
