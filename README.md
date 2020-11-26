@@ -1,10 +1,11 @@
 # Fer Wicker Responsive Portfolio
-
+In this project I deigned adn developed a new rsponsive portfolio to showcase my work as a web designer and developer. The inspiration was summer and a bit of retro eclectic font styling. This project was developed using HTML and CSS with Bootstrap.
 
 ## Table of contents
-- [Motivation] (#motivation)
-- [Process] (#process)
-- [Features] (#features)
+  - [Table of contents](#table-of-contents)
+  - [Motivation](#motivation)
+  - [Process](#process)
+  - [Features](#features)
 
 ## Motivation
 Having a portfolio to showcase work is essential as a web deigner and developer as it is often the first place people will see your work not just in featured projects but in the portfolio site itself, it is also a great opportunity to prospective employers and clients to get to know some more about who you are as a person.
