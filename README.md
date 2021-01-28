@@ -1,5 +1,5 @@
 # Fer Wicker Responsive Portfolio
-In this project I deigned adn developed a new rsponsive portfolio to showcase my work as a web designer and developer. The inspiration was summer and a bit of retro eclectic font styling. This project was developed using HTML and CSS with Bootstrap.
+In this project I designed and developed a new responsive portfolio to showcase my work as a web designer and developer. The inspiration was summer and a bit of retro eclectic font styling. This project was developed using HTML and CSS with Bootstrap.
 
 ## Table of contents
   - [Table of contents](#table-of-contents)
